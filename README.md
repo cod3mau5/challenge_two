@@ -17,16 +17,19 @@ To run this service yout need to install docker
 
 _Once you installed docker follow this steps:_
 
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/cod3mau5/challenge_two.git
    ```
-
-2. Generate Docker Image
+2. cd into project challenge_two
+   ```sh
+   cd challenge_two
+   ```
+3. Generate Docker Image
    ```sh
    sudo docker build -t store_spiders:1.0 .
    ```
-3. Run Docker Container
+4. Run Docker Container
    ```sh
    docker run -p 5000:5000 store_spiders:1.0
    ```
