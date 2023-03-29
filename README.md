@@ -42,8 +42,13 @@ _Once you installed docker follow this steps:_
 1. Enter your Browser and type: http://127.0.0.1:5000 or see the terminal yout will see something like:
     Running on http://127.0.0.1:5000 that will be the addres you need to type on your browser
 
-2. Now you can see the json response
+2. Now you can enter any of the url of the tiendasjumbo site menu for example: https://www.tiendasjumbo.co/herramientas-y-ferreteria/iluminacion-y-electricos/bombillos?order=OrderByBestDiscountDESC
+and press "enviar" button
 
+NOTE: some url can delay more than 10 minutes
+
+ * IMPORTANT:
+ Maybe chrome limits the timeout of a long duration http request so for this spider I recommend using firefox or another browser without this limitation
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
