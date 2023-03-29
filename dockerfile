@@ -44,5 +44,5 @@ WORKDIR "/challenge_tiendasjumbo/tiendasjumbo"
 CMD ["bash", "/usr/local/bin/start.sh"]
 
 
-# docker build -t tiendasjumbo_spider_2:1.0 .
-# docker run -p 5000:5000 tiendasjumbo_spider_2:1.0
+# docker build -t tiendasjumbo_spider2:1.0 .
+# docker run -p 5000:5000 tiendasjumbo_spider2:1.0
