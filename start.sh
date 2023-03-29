@@ -4,7 +4,7 @@
 webdriver-manager start &
 
 # Activar entorno conda
-source activate store_spiders
+source activate tiendasjumbo_spider
 
 # Ejecutar comando de arranque
 python app.py

@@ -21,16 +21,16 @@ RUN npm install -g webdriver-manager
 
 
 # Crear y activar entorno conda
-RUN conda create -n store_spiders python=3.8
-RUN echo "conda activate store_spiders" >> ~/.bashrc
+RUN conda create -n tiendasjumbo_spider python=3.8
+RUN echo "conda activate tiendasjumbo_spider" >> ~/.bashrc
 
 SHELL ["/bin/bash", "--login", "-c"]
 
 #instalar nano y frameworks para conda
 RUN apt-get install nano -y
-RUN conda install -n store_spiders scrapy
-RUN conda install -n store_spiders selenium
-RUN conda install -n store_spiders flask
+RUN conda install -n tiendasjumbo_spider scrapy
+RUN conda install -n tiendasjumbo_spider selenium
+RUN conda install -n tiendasjumbo_spider flask
 
 # Agregar script para ejecutar comandos
 COPY start.sh /usr/local/bin/
@@ -44,6 +44,5 @@ WORKDIR "/challenge_tiendasjumbo/tiendasjumbo"
 CMD ["bash", "/usr/local/bin/start.sh"]
 
 
-# docker build -t store_spiders:1.0 .
-# docker run -p 5000:5000 store_spiders:1.0
-
+# docker build -t tiendasjumbo_spider_2:1.0 .
+# docker run -p 5000:5000 tiendasjumbo_spider_2:1.0
