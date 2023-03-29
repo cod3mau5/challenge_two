@@ -18,19 +18,19 @@ _Once you installed docker follow this steps:_
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/cod3mau5/challenge_one.git
+   git clone https://github.com/cod3mau5/challenge_two.git
    ```
-2. cd into project challenge_one
+2. cd into project challenge_two
    ```sh
    cd challenge_one
    ```
 3. Generate Docker Image
    ```sh
-   sudo docker build -t wallmart_spider:1.0 .
+   sudo docker build -t tiendasjumbo_spider:1.0 .
    ```
 4. Run Docker Container
    ```sh
-   sudo docker run -p 5000:5000 wallmart_spider:1.0
+   sudo docker run -p 5000:5000 tiendasjumbo_spider:1.0
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -54,6 +54,6 @@ _Once you installed docker follow this steps:_
 
 Tomas Mauricio Arana Almeida - [@codemau5](https://twitter.com/codemau5) - info@codemau5.com
 
-Project Link: [https://github.com/cod3mau5/challenge_one](https://github.com/cod3mau5/challenge_one)
+Project Link: [https://github.com/cod3mau5/challenge_two](https://github.com/cod3mau5/challenge_two)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
