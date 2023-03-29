@@ -3,6 +3,7 @@
 ### Built With
  * Scrapy
  * Flask
+ * Selenium
 
 
 
@@ -22,7 +23,7 @@ _Once you installed docker follow this steps:_
    ```
 2. cd into project challenge_two
    ```sh
-   cd challenge_one
+   cd challenge_two
    ```
 3. Generate Docker Image
    ```sh
